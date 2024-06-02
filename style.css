@@ -1,0 +1,165 @@
+.antraste {
+text-align: center;
+background-color: rgb(255, 233, 36);
+color: rgb(236, 236, 236);
+padding: 10px;
+font-size: xx-large;
+background-image: url(FM.webp);
+height: 200px;
+background-position: center;
+}
+
+.Pagrindas{
+height: 500px;
+display: flex;
+flex-wrap: wrap;
+padding: 0px;
+width: 100%;
+}
+
+
+
+.video{
+width: 1000px;
+height: 550px;
+text-align: center;
+border-radius: 5%;
+}
+
+.menu{
+width: 100%;
+background-color: rgb(238, 238, 238);
+height: fit-content;
+}
+
+.straipsniai{
+width: 70%;
+display: inline-block;
+height: 400px;
+background-color: rgb(238, 238, 238);
+margin-top: 20px;
+border-radius: 5%;
+text-align: center;
+font-size: x-large;
+height: 800px;
+}
+
+.sonas{
+display: inline-block;
+width: 30%;
+background-color: rgb(42, 107, 11);
+text-align: center;
+border-radius: 15%;
+height: 420px;
+}
+
+.rodykle{
+width: 170px; 
+height: 100px;
+transform: rotate(270deg);
+padding: 20px;  
+}
+
+.reklama{
+font-size: 50px;
+font-weight: 900;
+color: rgb(255, 255, 255); 
+}
+
+a.reklama{
+text-decoration: none;
+}
+
+a.mygtukas{
+text-decoration: none;
+font-size: xx-large;
+color: rgb(255, 255, 255);
+background-color: rgb(163, 163, 152);
+border-radius: 20%;
+padding: 1%;
+}
+
+.menu{
+display: inline;
+text-align: center;
+padding: 20px;
+}
+
+.menu-elementas{
+list-style-type: none;
+padding: 20px;
+padding-top: 50px;
+display: inline;
+}
+
+.zemelapis{
+padding-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 800px;
+width: 70%;  
+}
+
+.zemelapis iframe{
+width: 80%; 
+height: 100%; 
+}
+
+.linija{
+height: 20px;
+size: 20px;
+background-color: rgb(42, 107, 11) ;  
+padding-bottom: 20px;
+margin-bottom: 20px;
+}
+
+.juda{
+position: fixed;
+bottom: 0%;
+background-color:rgb(42, 107, 11) ; 
+color: rgb(255, 255, 255);
+font-size: xx-large;
+}
+
+.skelbimas{
+margin-top: 50px;
+}
+
+
+
+
+.container {
+    text-align: center;
+   
+    
+}
+
+#gameButton {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    animation: moveButton 2s infinite;
+    
+}
+
+@keyframes moveButton {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: calc(100% - 100px); }
+    50% { top: calc(100% - 50px); left: calc(100% - 100px); }
+    75% { top: calc(100% - 50px); left: 0; }
+    100% { top: 0; left: 0; }
+}
+
+#gameButton:hover {
+    background-color: #218838;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+}
